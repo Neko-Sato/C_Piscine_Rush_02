@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoll.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: toshota <toshota@student.42.fr>            +#+  +:+       +#+        */
+/*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 22:16:42 by toshota           #+#    #+#             */
-/*   Updated: 2023/03/24 22:47:42 by toshota          ###   ########.fr       */
+/*   Updated: 2023/03/25 01:10:49 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ long long	*ft_atoll(const char *str)
 	}
 	if (*str == '.')
 		return (0);
-	if (*result > 4294967295)
+	if (*result >= (1ul << 32))
 		return (0);
 	return (result);
 }
