@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
+/*   By: toshota <toshota@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 20:21:55 by hshimizu          #+#    #+#             */
-/*   Updated: 2023/03/24 20:22:21 by hshimizu         ###   ########.fr       */
+/*   Updated: 2023/03/24 20:25:32 by toshota          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int main(int argc, char *argv[]){
-
+	if(argc == 2);
 	return 0;
 }
