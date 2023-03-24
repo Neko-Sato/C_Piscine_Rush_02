@@ -6,7 +6,7 @@
 /*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 20:21:55 by hshimizu          #+#    #+#             */
-/*   Updated: 2023/03/24 22:17:08 by hshimizu         ###   ########.fr       */
+/*   Updated: 2023/03/24 23:47:52 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	main(int argc, STRING argv[])
 	num = NULL;
 	if (argc == 2)
 	{
-		dict = get_default_dict();
+		dict = DEFAULT_DICT;
 		num = ft_atoll(argv[1]);
 	}
 	else if (argc == 3)
