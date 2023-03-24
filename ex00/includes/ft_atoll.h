@@ -6,7 +6,11 @@
 /*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 22:18:27 by hshimizu          #+#    #+#             */
-/*   Updated: 2023/03/24 22:19:05 by hshimizu         ###   ########.fr       */
+/*   Updated: 2023/03/24 22:30:55 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef FT_ATOLL_H
+# define FT_ATOLL_H
+
+#endif
