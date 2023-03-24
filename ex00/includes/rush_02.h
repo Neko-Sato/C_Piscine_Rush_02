@@ -6,7 +6,7 @@
 /*   By: hshimizu <hshimizu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/24 22:06:26 by hshimizu          #+#    #+#             */
-/*   Updated: 2023/03/24 23:47:37 by hshimizu         ###   ########.fr       */
+/*   Updated: 2023/03/25 00:46:41 by hshimizu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define RUSH_02_H
 
 # include "types.h"
-# include "dict.h"
+# include "numbers_dict.h"
 # include "ft_atoll.h"
 
 #endif
