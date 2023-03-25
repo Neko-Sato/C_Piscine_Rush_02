@@ -6,7 +6,7 @@
 /*   By: toshota <toshota@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 16:34:56 by tsishika          #+#    #+#             */
-/*   Updated: 2023/03/25 17:26:36 by toshota          ###   ########.fr       */
+/*   Updated: 2023/03/25 20:40:14 by toshota          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,13 +30,14 @@ char	*join_key(char *str)
 	return (joined_str);
 }
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main(void){
-//   char *str;
-//   str = join_key("20 : hey everybody !");
+int main(void){
+  char *str;	//	strを構造体にする
+  str = join_key("20 : hey everybody !");	//	str.key = join_key("20 : hey everybody !");とする
+	// str.value = atoll(str)
 
-//   printf("%s\n", str);
-//   free(str);
-//   return (0);
-// }
+  printf("%s\n", str);
+  free(str);
+  return (0);
+}
