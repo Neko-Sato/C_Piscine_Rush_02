@@ -3,16 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   joinkey.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsishika <tsishika@student.42.fr>          +#+  +:+       +#+        */
+/*   By: toshota <toshota@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/25 16:34:56 by tsishika          #+#    #+#             */
-/*   Updated: 2023/03/25 16:57:39 by tsishika         ###   ########.fr       */
+/*   Updated: 2023/03/25 17:26:36 by toshota          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include "ft_strjoin.h"
 #include "ft_split.h"
+#include "ft_strjoin.h"
 #include <stdlib.h>
 
 char	*join_key(char *str)
@@ -26,7 +25,6 @@ char	*join_key(char *str)
 	charset = " 	";
 	ans = ft_split(str, charset, &count);
 	sep = " ";
-
 	joined_str = ft_strjoin(count - 2, &ans[2], sep);
 	free(ans);
 	return (joined_str);
